@@ -18,3 +18,5 @@ class TestApp:
     def test_division(self, numbers):
         res = divide_by_two(numbers[1])
         assert res == numbers[0]
+
+        
